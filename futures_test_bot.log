@@ -1,0 +1,89 @@
+2025-05-26 00:58:21,633 - INFO - API bilgileri veritabanından başarıyla yüklendi
+2025-05-26 00:58:21,634 - ERROR - Exchange bağlantısı kurulamadı: API bilgileri eksik!
+2025-05-26 00:59:42,380 - ERROR - API bilgileri bulunamadı!
+2025-05-26 00:59:42,381 - ERROR - Exchange bağlantısı kurulamadı: API bilgileri eksik!
+2025-05-26 01:00:21,793 - ERROR - API bilgileri bulunamadı!
+2025-05-26 01:00:21,794 - ERROR - Exchange bağlantısı kurulamadı: API bilgileri eksik!
+2025-05-26 01:01:25,782 - INFO - API bilgileri veritabanından başarıyla yüklendi
+2025-05-26 01:01:25,810 - INFO - Binance Futures bağlantısı kuruldu
+2025-05-26 01:01:25,810 - INFO - Test bot başlatılıyor...
+2025-05-26 01:01:25,810 - INFO - LONG pozisyon testi başlıyor...
+2025-05-26 01:01:34,424 - INFO - Kaldıraç 5x olarak ayarlandı - BTC/USDT
+2025-05-26 01:01:35,251 - ERROR - Market emri oluşturulurken hata: binance {"code":-2019,"msg":"Margin is insufficient."}
+2025-05-26 01:01:37,254 - INFO - SHORT pozisyon testi başlıyor...
+2025-05-26 01:01:37,530 - INFO - Kaldıraç 5x olarak ayarlandı - BTC/USDT
+2025-05-26 01:01:38,357 - ERROR - Market emri oluşturulurken hata: binance {"code":-2019,"msg":"Margin is insufficient."}
+2025-05-26 01:01:38,358 - INFO - Test tamamlandı
+2025-05-26 01:05:03,429 - INFO - API bilgileri veritabanından başarıyla yüklendi
+2025-05-26 01:05:03,459 - INFO - Binance Futures bağlantısı kuruldu
+2025-05-26 01:05:03,460 - INFO - Test bot başlatılıyor...
+2025-05-26 01:05:03,460 - INFO - API Key uzunluğu: 64
+2025-05-26 01:05:03,460 - INFO - API Secret uzunluğu: 64
+2025-05-26 01:05:10,996 - INFO - Market durumu kontrol edildi. 1000CHEEMS/USDT fiyatı: 0.0016432
+2025-05-26 01:05:10,996 - INFO - LONG pozisyon testi başlıyor...
+2025-05-26 01:05:11,263 - INFO - Kaldıraç 5x olarak ayarlandı - 1000CHEEMS/USDT
+2025-05-26 01:05:12,070 - ERROR - Market emri oluşturulurken hata: binance {"code":-2019,"msg":"Margin is insufficient."}
+2025-05-26 01:05:14,072 - INFO - SHORT pozisyon testi başlıyor...
+2025-05-26 01:05:14,343 - INFO - Kaldıraç 5x olarak ayarlandı - 1000CHEEMS/USDT
+2025-05-26 01:05:15,143 - ERROR - Market emri oluşturulurken hata: binance {"code":-2019,"msg":"Margin is insufficient."}
+2025-05-26 01:05:15,143 - INFO - Test tamamlandı
+2025-05-26 01:05:54,002 - INFO - API bilgileri veritabanından başarıyla yüklendi
+2025-05-26 01:05:54,031 - ERROR - Margin mode ayarlanırken hata: 'binance' object has no attribute 'fapiPrivate_post_margintype'
+2025-05-26 01:05:54,032 - INFO - Binance Futures bağlantısı kuruldu
+2025-05-26 01:05:54,032 - INFO - Test bot başlatılıyor...
+2025-05-26 01:05:54,032 - INFO - API Key uzunluğu: 64
+2025-05-26 01:05:54,032 - INFO - API Secret uzunluğu: 64
+2025-05-26 01:06:02,112 - INFO - Market durumu kontrol edildi. 1000CHEEMS/USDT fiyatı: 0.0016449
+2025-05-26 01:06:02,112 - INFO - LONG pozisyon testi başlıyor...
+2025-05-26 01:06:02,390 - INFO - Kaldıraç 5x olarak ayarlandı - 1000CHEEMS/USDT
+2025-05-26 01:06:02,669 - INFO - Hesaplanan pozisyon büyüklüğü: 303.969846 1000CHEEMS
+2025-05-26 01:06:02,669 - INFO - USDT değeri: 0.5 USDT
+2025-05-26 01:06:02,947 - ERROR - Market emri oluşturulurken hata: binance {"code":-4164,"msg":"Order's notional must be no smaller than 5 (unless you choose reduce only)."}
+2025-05-26 01:06:04,949 - INFO - SHORT pozisyon testi başlıyor...
+2025-05-26 01:06:05,227 - INFO - Kaldıraç 5x olarak ayarlandı - 1000CHEEMS/USDT
+2025-05-26 01:06:05,505 - INFO - Hesaplanan pozisyon büyüklüğü: 303.969846 1000CHEEMS
+2025-05-26 01:06:05,506 - INFO - USDT değeri: 0.5 USDT
+2025-05-26 01:06:05,783 - ERROR - Market emri oluşturulurken hata: binance {"code":-4164,"msg":"Order's notional must be no smaller than 5 (unless you choose reduce only)."}
+2025-05-26 01:06:05,783 - INFO - Test tamamlandı
+2025-05-26 01:06:58,390 - INFO - API bilgileri veritabanından başarıyla yüklendi
+2025-05-26 01:06:58,427 - ERROR - Margin mode ayarlanırken hata: 'binance' object has no attribute 'fapiPrivate_post_margintype'
+2025-05-26 01:06:58,427 - INFO - Binance Futures bağlantısı kuruldu
+2025-05-26 01:06:58,427 - INFO - Test bot başlatılıyor...
+2025-05-26 01:06:58,428 - INFO - API Key uzunluğu: 64
+2025-05-26 01:06:58,428 - INFO - API Secret uzunluğu: 64
+2025-05-26 01:07:06,056 - INFO - Market durumu kontrol edildi. 1000CHEEMS/USDT fiyatı: 0.0016447
+2025-05-26 01:07:06,057 - INFO - LONG pozisyon testi başlıyor...
+2025-05-26 01:07:06,327 - INFO - Kaldıraç 5x olarak ayarlandı - 1000CHEEMS/USDT
+2025-05-26 01:07:06,596 - INFO - Hesaplanan pozisyon büyüklüğü: 3038.220818 1000CHEEMS
+2025-05-26 01:07:06,596 - INFO - USDT değeri: 5.0 USDT
+2025-05-26 01:07:06,866 - ERROR - Market emri oluşturulurken hata: binance {"code":-4164,"msg":"Order's notional must be no smaller than 5 (unless you choose reduce only)."}
+2025-05-26 01:07:08,869 - INFO - SHORT pozisyon testi başlıyor...
+2025-05-26 01:07:09,142 - INFO - Kaldıraç 5x olarak ayarlandı - 1000CHEEMS/USDT
+2025-05-26 01:07:09,412 - INFO - Hesaplanan pozisyon büyüklüğü: 3036.929057 1000CHEEMS
+2025-05-26 01:07:09,412 - INFO - USDT değeri: 5.0 USDT
+2025-05-26 01:07:09,682 - ERROR - Market emri oluşturulurken hata: binance {"code":-4164,"msg":"Order's notional must be no smaller than 5 (unless you choose reduce only)."}
+2025-05-26 01:07:09,682 - INFO - Test tamamlandı
+2025-05-26 01:08:07,429 - INFO - API bilgileri veritabanından başarıyla yüklendi
+2025-05-26 01:08:07,464 - ERROR - Margin mode ayarlanırken hata: 'binance' object has no attribute 'fapiPrivate_post_margintype'
+2025-05-26 01:08:07,464 - INFO - Binance Futures bağlantısı kuruldu
+2025-05-26 01:08:07,464 - INFO - Test bot başlatılıyor...
+2025-05-26 01:08:07,464 - INFO - API Key uzunluğu: 64
+2025-05-26 01:08:07,465 - INFO - API Secret uzunluğu: 64
+2025-05-26 01:08:14,632 - INFO - Market durumu kontrol edildi. 1000CHEEMS/USDT fiyatı: 0.0016469
+2025-05-26 01:08:14,632 - INFO - LONG pozisyon testi başlıyor...
+2025-05-26 01:08:14,913 - INFO - Kaldıraç 5x olarak ayarlandı - 1000CHEEMS/USDT
+2025-05-26 01:08:15,208 - INFO - Hesaplanan pozisyon büyüklüğü: 3338.999514 1000CHEEMS
+2025-05-26 01:08:15,208 - INFO - Notional Value: 5.4999999994608 USDT
+2025-05-26 01:08:15,208 - INFO - Current Price: 0.0016472 USDT
+2025-05-26 01:08:15,490 - INFO - buy emri oluşturuldu: {'info': {'orderId': '812922760', 'symbol': '1000CHEEMSUSDT', 'status': 'FILLED', 'clientOrderId': 'x-cvBPrNm96808554d338b40690ca3d5', 'price': '0.0000000', 'avgPrice': '0.0016472', 'origQty': '3338', 'executedQty': '3338', 'cumQty': '3338', 'cumQuote': '5.4983536', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.0000000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': '0', 'updateTime': '1748210895336'}, 'id': '812922760', 'clientOrderId': 'x-cvBPrNm96808554d338b40690ca3d5', 'timestamp': 1748210895336, 'datetime': '2025-05-25T22:08:15.336Z', 'lastTradeTimestamp': 1748210895336, 'lastUpdateTimestamp': 1748210895336, 'symbol': '1000CHEEMS/USDT:USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'reduceOnly': False, 'side': 'buy', 'price': 0.0016472, 'triggerPrice': None, 'amount': 3338.0, 'cost': 5.4983536, 'average': 0.0016472, 'filled': 3338.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': [], 'stopPrice': None, 'takeProfitPrice': None, 'stopLossPrice': None}
+2025-05-26 01:08:15,490 - INFO - LONG pozisyon açıldı - Miktar: 3338.999514 1000CHEEMS/USDT
+2025-05-26 01:08:21,425 - INFO - 1000CHEEMS/USDT için açık pozisyon bulunamadı
+2025-05-26 01:08:23,427 - INFO - SHORT pozisyon testi başlıyor...
+2025-05-26 01:08:23,708 - INFO - Kaldıraç 5x olarak ayarlandı - 1000CHEEMS/USDT
+2025-05-26 01:08:23,986 - INFO - Hesaplanan pozisyon büyüklüğü: 3338.999514 1000CHEEMS
+2025-05-26 01:08:23,987 - INFO - Notional Value: 5.4999999994608 USDT
+2025-05-26 01:08:23,987 - INFO - Current Price: 0.0016472 USDT
+2025-05-26 01:08:24,271 - INFO - sell emri oluşturuldu: {'info': {'orderId': '812922866', 'symbol': '1000CHEEMSUSDT', 'status': 'FILLED', 'clientOrderId': 'x-cvBPrNm944cb59eec422446cfad5b7', 'price': '0.0000000', 'avgPrice': '0.0016471', 'origQty': '3338', 'executedQty': '3338', 'cumQty': '3338', 'cumQuote': '5.4980198', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.0000000', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': '0', 'updateTime': '1748210904114'}, 'id': '812922866', 'clientOrderId': 'x-cvBPrNm944cb59eec422446cfad5b7', 'timestamp': 1748210904114, 'datetime': '2025-05-25T22:08:24.114Z', 'lastTradeTimestamp': 1748210904114, 'lastUpdateTimestamp': 1748210904114, 'symbol': '1000CHEEMS/USDT:USDT', 'type': 'market', 'timeInForce': 'GTC', 'postOnly': False, 'reduceOnly': False, 'side': 'sell', 'price': 0.0016471, 'triggerPrice': None, 'amount': 3338.0, 'cost': 5.4980198, 'average': 0.0016471, 'filled': 3338.0, 'remaining': 0.0, 'status': 'closed', 'fee': None, 'trades': [], 'fees': [], 'stopPrice': None, 'takeProfitPrice': None, 'stopLossPrice': None}
+2025-05-26 01:08:24,271 - INFO - SHORT pozisyon açıldı - Miktar: 3338.999514 1000CHEEMS/USDT
+2025-05-26 01:08:29,557 - INFO - 1000CHEEMS/USDT için açık pozisyon bulunamadı
+2025-05-26 01:08:29,557 - INFO - Test tamamlandı

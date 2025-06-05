@@ -1,0 +1,141 @@
+=== Bot yeniden başlatıldı: Fri Jun  6 00:39:22 +03 2025 ===
+chmod: changing permissions of '.': Operation not permitted
+Varsayılan veritabanı yapılandırması kullanılıyor
+2025-06-06 00:39:28,282 - trading_bot - INFO - Bot yapılandırması settings_json sütunundan yüklendi.
+2025-06-06 00:39:28,282 - trading_bot - INFO - Bot yapılandırması veritabanından başarıyla yüklendi.
+2025-06-06 00:39:28,285 - trading_bot - INFO - Bot ayarları settings_json alanından yüklendi.
+2025-06-06 00:39:28,286 - trading_bot - INFO - İşlem miktarı ayarlandı: 10.0 USDT
+2025-06-06 00:39:28,286 - trading_bot - ERROR - Bot ayarları veritabanından yüklenirken hata: float() argument must be a string or a number, not 'dict'
+2025-06-06 00:39:28,289 - trading_bot - INFO - API anahtarlarını settings_json alanından okuma denemesi yapılıyor
+2025-06-06 00:39:28,289 - trading_bot - INFO - API anahtarları api_keys.binance_api_key ve api_keys.binance_api_secret'dan alındı
+2025-06-06 00:39:28,290 - trading_bot - INFO - API key boşlukları temizlendi. Yeni uzunluk: 64
+2025-06-06 00:39:28,290 - trading_bot - INFO - API secret boşlukları temizlendi. Yeni uzunluk: 64
+2025-06-06 00:39:28,290 - trading_bot - INFO - API anahtarları veritabanından başarıyla yüklendi. API key uzunluğu: 64
+2025-06-06 00:39:28,290 - trading_bot - INFO - API anahtarı: yG2...H6s
+2025-06-06 00:39:28,294 - trading_bot - INFO - Telegram ayarları yüklendi: enabled=True, token_var=Evet, chat_id_var=Evet
+2025-06-06 00:39:29,030 - trading_bot - INFO - Telegram mesajı başarıyla gönderildi.
+2025-06-06 00:39:29,031 - trading_bot - INFO - Telegram test mesajı gönderildi
+2025-06-06 00:39:29,042 - trading_bot - INFO - 49 açık pozisyon yüklendi
+2025-06-06 00:39:29,044 - trading_bot - INFO - İndikatör Yöneticisi başlatıldı. Konsensüs metodu: weighted, Sinyal eşiği: 65%
+2025-06-06 00:39:29,044 - trading_bot - INFO - Adaptif Parametre Yöneticisi başlatıldı. Aktif: True
+2025-06-06 00:39:29,044 - trading_bot - INFO - AdaptiveParameters modülü başlatıldı - Piyasa koşullarına göre otomatik optimizasyon aktif
+2025-06-06 00:39:29,044 - trading_bot - INFO - Risk Yöneticisi başlatıldı. Max risk/işlem: %3.0
+2025-06-06 00:39:29,044 - trading_bot - INFO - ⚠️ Gelişmiş stop-loss sistemi aktif: %0.8 sabit / ATR x1.0
+2025-06-06 00:39:29,044 - trading_bot - INFO - 🛑 Maksimum zarar koruma sistemi: %8.0
+2025-06-06 00:39:29,044 - trading_bot - INFO - 🚀 Otomatik Kaldıraç Sistemi aktif!
+2025-06-06 00:39:29,044 - trading_bot - INFO - RiskManager modülü başlatıldı - ATR bazlı dinamik stop-loss ve pozisyon büyüklüğü optimizasyonu aktif
+2025-06-06 00:39:29,044 - trading_bot - INFO - 🔧 Exchange futures modunda yapılandırılıyor - Multi-Assets destekli cross margin modu
+2025-06-06 00:39:29,078 - trading_bot - INFO - 🔄 Exchange bağlantısı test ediliyor...
+2025-06-06 00:39:29,078 - trading_bot - INFO - 📊 Market verileri yükleniyor... (Deneme 1/3)
+2025-06-06 00:39:35,245 - trading_bot - INFO - ✅ 3699 market başarıyla yüklendi
+2025-06-06 00:39:35,248 - trading_bot - INFO - 💰 587 adet USDT çifti tespit edildi
+2025-06-06 00:39:35,248 - trading_bot - INFO - 🔐 API bağlantısı test ediliyor...
+2025-06-06 00:39:35,521 - trading_bot - INFO - ✅ Futures hesap bilgisine erişim başarılı
+2025-06-06 00:39:37,030 - trading_bot - INFO - 📋 Position mode: {'dualSidePosition': False}
+2025-06-06 00:39:37,031 - trading_bot - INFO - 🎉 BINANCE borsası başarıyla bağlandı - Market türü: futures
+2025-06-06 00:39:37,031 - trading_bot - INFO - 🚀 Trading Bot başlatılıyor...
+2025-06-06 00:39:37,031 - trading_bot - INFO - 🧹 Delisted coinler kontrol ediliyor ve temizleniyor...
+2025-06-06 00:39:37,045 - trading_bot - INFO - ❌ BMT/USDT aktif listeden kaldırıldı
+2025-06-06 00:39:37,046 - trading_bot - INFO - ❌ IOTX/USDT aktif listeden kaldırıldı
+2025-06-06 00:39:37,071 - trading_bot - INFO - ✅ Toplam 2 adet delisted coin temizlendi
+2025-06-06 00:39:37,071 - trading_bot - INFO - ✅ 2 adet delisted coin temizlendi
+2025-06-06 00:39:37,072 - trading_bot - INFO - Coin izleme başlatıldı...
+2025-06-06 00:39:37,072 - trading_bot - INFO - Otomatik coin keşfetme sistemi başlatıldı...
+2025-06-06 00:39:37,072 - trading_bot - INFO - ✅ Bot başlatıldı ve izleme thread'i çalışıyor
+2025-06-06 00:39:37,075 - trading_bot - INFO - Bot ayarları settings_json alanından yüklendi.
+2025-06-06 00:39:37,076 - trading_bot - INFO - Bot ayarları settings_json alanından yüklendi.
+2025-06-06 00:39:37,076 - trading_bot - INFO - İşlem miktarı ayarlandı: 10.0 USDT
+2025-06-06 00:39:37,077 - trading_bot - INFO - İşlem miktarı ayarlandı: 10.0 USDT
+2025-06-06 00:39:37,077 - trading_bot - ERROR - Bot ayarları veritabanından yüklenirken hata: float() argument must be a string or a number, not 'dict'
+2025-06-06 00:39:37,077 - trading_bot - ERROR - Bot ayarları veritabanından yüklenirken hata: float() argument must be a string or a number, not 'dict'
+2025-06-06 00:39:37,078 - trading_bot - INFO - Bot keşif ayarları yenilendi. Discovery Interval: 3600 saniye
+2025-06-06 00:39:37,077 - trading_bot - INFO - Bot ayarları veritabanından yenilendi: trade_amount=10.0, min_trade_amount=5.0, max_trade_amount=6.0, trade_mode=live, auto_trade=True
+2025-06-06 00:39:37,078 - trading_bot - INFO - Yeni potansiyel coinler keşfediliyor...
+2025-06-06 00:39:37,082 - trading_bot - INFO - 587 adet USDT çifti bulundu, analiz ediliyor...
+2025-06-06 00:39:37,083 - trading_bot - INFO - Coin keşfi: 1/5 grup analiz ediliyor...
+2025-06-06 00:39:37,353 - trading_bot - INFO - BSW/USDT LONG pozisyonu - Fiyat: 0.023910, Kâr/Zarar: -6.12%
+2025-06-06 00:39:37,354 - trading_bot - INFO - 🔴 STOP LOSS: BSW/USDT LONG pozisyonu stop seviyesine ulaştı! Fiyat: 0.023910, SL: 0.026740
+2025-06-06 00:39:37,354 - trading_bot - INFO - CANLI MOD: BSW/USDT pozisyon kapatılıyor. Fiyat: 0.0239, Kâr/Zarar: -6.12%
+2025-06-06 00:39:37,633 - trading_bot - INFO - FUTURES SATIŞ: BSW/USDT LONG pozisyon kapatıldı. Miktar: 215.94032195, Fiyat: 0.0239
+2025-06-06 00:39:37,639 - trading_bot - ERROR - trade_history tablosu oluşturma hatası: 1293 (HY000): Incorrect table definition; there can be only one TIMESTAMP column with CURRENT_TIMESTAMP in DEFAULT or ON UPDATE clause
+2025-06-06 00:39:37,640 - trading_bot - ERROR - Pozisyon veritabanında kapatılırken hata: float() argument must be a string or a number, not 'NoneType'
+2025-06-06 00:39:37,953 - trading_bot - WARNING - Telegram mesajı gönderilemedi. HTTP kodu: 400, Yanıt: {"ok":false,"error_code":400,"description":"Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 170"}
+2025-06-06 00:39:38,245 - trading_bot - INFO - Telegram mesajı formatting olmadan gönderildi.
+2025-06-06 00:39:38,246 - trading_bot - INFO - ✅ BSW/USDT LONG pozisyon bildirimi gönderildi: CLOSE
+2025-06-06 00:39:38,555 - trading_bot - INFO - EIGEN/USDT LONG pozisyonu - Fiyat: 1.331800, Kâr/Zarar: 2.08%
+2025-06-06 00:39:38,555 - trading_bot - INFO - 📈 EIGEN/USDT LONG için trailing stop güncellendi: 1.327805 (Kâr/Zarar: 2.08%)
+2025-06-06 00:39:38,831 - trading_bot - WARNING - 🔴 YÜKSEK ZARAR UYARISI: INIT/USDT LONG pozisyonunda %9.07 zarar - pozisyon kapatılıyor!
+2025-06-06 00:39:38,831 - trading_bot - INFO - CANLI MOD: INIT/USDT pozisyon kapatılıyor. Fiyat: 0.6684, Kâr/Zarar: -9.07%
+2025-06-06 00:39:39,228 - trading_bot - ERROR - Canlı işlem API'si hatası: binance {"code":-4164,"msg":"Order's notional must be no smaller than 5 (unless you choose reduce only)."}
+2025-06-06 00:39:39,229 - trading_bot - INFO - INIT/USDT için 1h OHLCV verileri çekiliyor...
+2025-06-06 00:39:39,514 - trading_bot - WARNING - 💡 INIT/USDT ZARARDAKİ POZİSYON ANALİZİ: %9.98 zarar, 104.7 saat açık kaldı
+2025-06-06 00:39:39,515 - trading_bot - WARNING - 💡 Olası nedenler: Yüksek volatilite (%12.0 fiyat aralığı)
+2025-06-06 00:39:39,785 - trading_bot - WARNING - 🔴 YÜKSEK ZARAR UYARISI: BIO/USDT LONG pozisyonunda %8.60 zarar - pozisyon kapatılıyor!
+2025-06-06 00:39:39,786 - trading_bot - INFO - CANLI MOD: BIO/USDT pozisyon kapatılıyor. Fiyat: 0.0596, Kâr/Zarar: -8.60%
+2025-06-06 00:39:39,828 - trading_bot - WARNING - MATIC/USDT değerlendirilirken hata: binance does not have market symbol MATIC/USDT
+2025-06-06 00:39:40,067 - trading_bot - INFO - FUTURES SATIŞ: BIO/USDT LONG pozisyon kapatıldı. Miktar: 84.35582822, Fiyat: 0.0596
+2025-06-06 00:39:40,071 - trading_bot - ERROR - trade_history tablosu oluşturma hatası: 1293 (HY000): Incorrect table definition; there can be only one TIMESTAMP column with CURRENT_TIMESTAMP in DEFAULT or ON UPDATE clause
+2025-06-06 00:39:40,072 - trading_bot - ERROR - Pozisyon veritabanında kapatılırken hata: float() argument must be a string or a number, not 'NoneType'
+2025-06-06 00:39:40,361 - trading_bot - WARNING - QKC/USDT değerlendirilirken hata: binance does not have market symbol QKC/USDT
+2025-06-06 00:39:40,361 - trading_bot - WARNING - UNIDOWN/USDT değerlendirilirken hata: binance does not have market symbol UNIDOWN/USDT
+2025-06-06 00:39:40,389 - trading_bot - INFO - Telegram mesajı başarıyla gönderildi.
+2025-06-06 00:39:40,389 - trading_bot - INFO - ✅ BIO/USDT LONG pozisyon bildirimi gönderildi: CLOSE
+2025-06-06 00:39:40,390 - trading_bot - INFO - BIO/USDT için 1h OHLCV verileri çekiliyor...
+2025-06-06 00:39:40,750 - trading_bot - WARNING - 💡 BIO/USDT ZARARDAKİ POZİSYON ANALİZİ: %9.41 zarar, 104.7 saat açık kaldı
+2025-06-06 00:39:40,750 - trading_bot - WARNING - 💡 Olası nedenler: Yüksek volatilite (%12.2 fiyat aralığı)
+2025-06-06 00:39:41,022 - trading_bot - WARNING - 🔴 YÜKSEK ZARAR UYARISI: ONDO/USDT LONG pozisyonunda %8.44 zarar - pozisyon kapatılıyor!
+2025-06-06 00:39:41,023 - trading_bot - INFO - CANLI MOD: ONDO/USDT pozisyon kapatılıyor. Fiyat: 0.7776, Kâr/Zarar: -8.44%
+2025-06-06 00:39:41,148 - trading_bot - WARNING - GAL/USDT değerlendirilirken hata: binance does not have market symbol GAL/USDT
+2025-06-06 00:39:41,367 - trading_bot - ERROR - Canlı işlem API'si hatası: binance {"code":-4164,"msg":"Order's notional must be no smaller than 5 (unless you choose reduce only)."}
+2025-06-06 00:39:41,367 - trading_bot - INFO - ONDO/USDT için 1h OHLCV verileri çekiliyor...
+2025-06-06 00:39:41,646 - trading_bot - WARNING - 💡 ONDO/USDT ZARARDAKİ POZİSYON ANALİZİ: %9.22 zarar, 104.5 saat açık kaldı
+2025-06-06 00:39:41,646 - trading_bot - WARNING - 💡 Olası nedenler: Yüksek volatilite (%10.7 fiyat aralığı)
+2025-06-06 00:39:41,919 - trading_bot - WARNING - 🔴 YÜKSEK ZARAR UYARISI: TST/USDT LONG pozisyonunda %13.05 zarar - pozisyon kapatılıyor!
+2025-06-06 00:39:41,919 - trading_bot - INFO - CANLI MOD: TST/USDT pozisyon kapatılıyor. Fiyat: 0.0393, Kâr/Zarar: -13.05%
+2025-06-06 00:39:42,191 - trading_bot - ERROR - Canlı işlem API'si hatası: binance {"code":-4164,"msg":"Order's notional must be no smaller than 5 (unless you choose reduce only)."}
+2025-06-06 00:39:42,192 - trading_bot - INFO - TST/USDT için 1h OHLCV verileri çekiliyor...
+2025-06-06 00:39:42,479 - trading_bot - WARNING - 💡 TST/USDT ZARARDAKİ POZİSYON ANALİZİ: %15.01 zarar, 104.3 saat açık kaldı
+2025-06-06 00:39:42,480 - trading_bot - WARNING - 💡 Olası nedenler: Yüksek volatilite (%11.4 fiyat aralığı)
+2025-06-06 00:39:42,754 - trading_bot - WARNING - 🔴 YÜKSEK ZARAR UYARISI: INIT/USDT LONG pozisyonunda %9.07 zarar - pozisyon kapatılıyor!
+2025-06-06 00:39:42,754 - trading_bot - INFO - CANLI MOD: INIT/USDT pozisyon kapatılıyor. Fiyat: 0.6684, Kâr/Zarar: -9.07%
+2025-06-06 00:39:43,024 - trading_bot - ERROR - Canlı işlem API'si hatası: binance {"code":-4164,"msg":"Order's notional must be no smaller than 5 (unless you choose reduce only)."}
+2025-06-06 00:39:43,025 - trading_bot - INFO - INIT/USDT için 1h OHLCV verileri çekiliyor...
+2025-06-06 00:39:43,307 - trading_bot - WARNING - 💡 INIT/USDT ZARARDAKİ POZİSYON ANALİZİ: %9.98 zarar, 103.6 saat açık kaldı
+2025-06-06 00:39:43,307 - trading_bot - WARNING - 💡 Olası nedenler: Yüksek volatilite (%12.0 fiyat aralığı)
+2025-06-06 00:39:43,580 - trading_bot - INFO - BSW/USDT LONG pozisyonu - Fiyat: 0.023900, Kâr/Zarar: -6.16%
+2025-06-06 00:39:43,580 - trading_bot - INFO - 🔴 STOP LOSS: BSW/USDT LONG pozisyonu stop seviyesine ulaştı! Fiyat: 0.023900, SL: 0.026600
+2025-06-06 00:39:43,580 - trading_bot - INFO - CANLI MOD: BSW/USDT pozisyon kapatılıyor. Fiyat: 0.0239, Kâr/Zarar: -6.16%
+2025-06-06 00:39:43,856 - trading_bot - ERROR - Canlı işlem API'si hatası: binance {"code":-2019,"msg":"Margin is insufficient."}
+2025-06-06 00:39:44,129 - trading_bot - INFO - HEI/USDT LONG pozisyonu - Fiyat: 0.305800, Kâr/Zarar: -6.02%
+2025-06-06 00:39:44,129 - trading_bot - INFO - 🔴 STOP LOSS: HEI/USDT LONG pozisyonu stop seviyesine ulaştı! Fiyat: 0.305800, SL: 0.315913
+2025-06-06 00:39:44,129 - trading_bot - INFO - CANLI MOD: HEI/USDT pozisyon kapatılıyor. Fiyat: 0.3058, Kâr/Zarar: -6.02%
+2025-06-06 00:39:44,404 - trading_bot - ERROR - Canlı işlem API'si hatası: binance {"code":-2019,"msg":"Margin is insufficient."}
+2025-06-06 00:39:44,682 - trading_bot - WARNING - 🔴 YÜKSEK ZARAR UYARISI: THE/USDT LONG pozisyonunda %16.31 zarar - pozisyon kapatılıyor!
+2025-06-06 00:39:44,683 - trading_bot - INFO - CANLI MOD: THE/USDT pozisyon kapatılıyor. Fiyat: 0.2155, Kâr/Zarar: -16.31%
+2025-06-06 00:39:44,962 - trading_bot - INFO - Coin keşfi: 2/5 grup analiz ediliyor...
+2025-06-06 00:39:45,400 - trading_bot - ERROR - Canlı işlem API'si hatası: binance {"code":-4164,"msg":"Order's notional must be no smaller than 5 (unless you choose reduce only)."}
+2025-06-06 00:39:45,400 - trading_bot - INFO - THE/USDT için 1h OHLCV verileri çekiliyor...
+2025-06-06 00:39:45,487 - trading_bot - WARNING - RGT/USDT değerlendirilirken hata: binance does not have market symbol RGT/USDT
+2025-06-06 00:39:45,679 - trading_bot - WARNING - 💡 THE/USDT ZARARDAKİ POZİSYON ANALİZİ: %19.49 zarar, 100.9 saat açık kaldı
+2025-06-06 00:39:45,679 - trading_bot - WARNING - 💡 Olası nedenler: Yüksek volatilite (%20.2 fiyat aralığı)
+2025-06-06 00:39:45,750 - trading_bot - WARNING - YFIDOWN/USDT değerlendirilirken hata: binance does not have market symbol YFIDOWN/USDT
+2025-06-06 00:39:45,957 - trading_bot - INFO - AERGO/USDT LONG pozisyonu - Fiyat: 0.123510, Kâr/Zarar: 1.85%
+2025-06-06 00:39:45,957 - trading_bot - INFO - 📈 AERGO/USDT LONG için trailing stop güncellendi: 0.123139 (Kâr/Zarar: 1.85%)
+2025-06-06 00:39:46,276 - trading_bot - WARNING - BNBBULL/USDT değerlendirilirken hata: binance does not have market symbol BNBBULL/USDT
+2025-06-06 00:39:46,538 - trading_bot - WARNING - DOTUP/USDT değerlendirilirken hata: binance does not have market symbol DOTUP/USDT
+2025-06-06 00:39:46,539 - trading_bot - WARNING - BEAR/USDT değerlendirilirken hata: binance does not have market symbol BEAR/USDT
+2025-06-06 00:39:46,539 - trading_bot - WARNING - ADAUP/USDT değerlendirilirken hata: binance does not have market symbol ADAUP/USDT
+2025-06-06 00:39:46,661 - trading_bot - INFO - ZRX/USDT LONG pozisyonu - Fiyat: 0.226600, Kâr/Zarar: -4.06%
+2025-06-06 00:39:46,662 - trading_bot - INFO - 🔴 STOP LOSS: ZRX/USDT LONG pozisyonu stop seviyesine ulaştı! Fiyat: 0.226600, SL: 0.244900
+2025-06-06 00:39:46,662 - trading_bot - INFO - CANLI MOD: ZRX/USDT pozisyon kapatılıyor. Fiyat: 0.2266, Kâr/Zarar: -4.06%
+2025-06-06 00:39:46,803 - trading_bot - WARNING - UTK/USDT değerlendirilirken hata: binance does not have market symbol UTK/USDT
+2025-06-06 00:39:47,016 - trading_bot - ERROR - Canlı işlem API'si hatası: binance {"code":-2019,"msg":"Margin is insufficient."}
+2025-06-06 00:39:47,328 - trading_bot - WARNING - ATM/USDT değerlendirilirken hata: binance does not have market symbol ATM/USDT
+2025-06-06 00:39:47,329 - trading_bot - WARNING - EPX/USDT değerlendirilirken hata: binance does not have market symbol EPX/USDT
+2025-06-06 00:39:47,737 - trading_bot - INFO - STX/USDT LONG pozisyonu - Fiyat: 0.687500, Kâr/Zarar: -6.75%
+2025-06-06 00:39:47,738 - trading_bot - INFO - 🔴 STOP LOSS: STX/USDT LONG pozisyonu stop seviyesine ulaştı! Fiyat: 0.687500, SL: 0.764500
+2025-06-06 00:39:47,738 - trading_bot - INFO - CANLI MOD: STX/USDT pozisyon kapatılıyor. Fiyat: 0.6875, Kâr/Zarar: -6.75%
+2025-06-06 00:39:48,451 - trading_bot - ERROR - Canlı işlem API'si hatası: binance {"code":-4164,"msg":"Order's notional must be no smaller than 5 (unless you choose reduce only)."}
+2025-06-06 00:39:48,727 - trading_bot - INFO - 🔴 STOP LOSS: SOPH/USDT LONG pozisyonu stop seviyesine ulaştı! Fiyat: 0.052737, SL: 0.053623
+2025-06-06 00:39:48,728 - trading_bot - INFO - CANLI MOD: SOPH/USDT pozisyon kapatılıyor. Fiyat: 0.0527, Kâr/Zarar: -0.27%
+2025-06-06 00:39:49,006 - trading_bot - ERROR - Canlı işlem API'si hatası: binance {"code":-2019,"msg":"Margin is insufficient."}

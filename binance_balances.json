@@ -1,0 +1,28 @@
+{
+  "spot": [],
+  "margin": [
+    {
+      "asset": "BNB",
+      "free": "0.00023758",
+      "locked": "0",
+      "borrowed": "0",
+      "interest": "0",
+      "netAsset": "0.00023758"
+    }
+  ],
+  "isolated_margin": [],
+  "futures": [
+    {
+      "accountAlias": "mYuXuXAumYmYAusR",
+      "asset": "USDT",
+      "balance": "16.71014715",
+      "crossWalletBalance": "16.71014715",
+      "crossUnPnl": "0.00000000",
+      "availableBalance": "16.70680541",
+      "maxWithdrawAmount": "9.97186115",
+      "marginAvailable": true,
+      "updateTime": 1746784564463
+    }
+  ],
+  "wallet_btc_value": 0
+}
