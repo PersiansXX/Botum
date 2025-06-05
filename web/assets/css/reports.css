@@ -1,0 +1,145 @@
+/* Reports Sayfası Özel Stilleri */
+
+/* Rapor kartları için stiller */
+.report-card {
+    border-left: 4px solid #007bff;
+    transition: all 0.3s ease;
+}
+
+.report-card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.market-data-card {
+    border-left: 4px solid #28a745;
+}
+
+/* Kar/Zarar renkleri */
+.profit-positive {
+    color: #28a745;
+    font-weight: 500;
+}
+
+.profit-negative {
+    color: #dc3545;
+    font-weight: 500;
+}
+
+/* Rapor özet ikonları */
+.report-summary-icon {
+    font-size: 2rem;
+    opacity: 0.8;
+}
+
+/* Trend okları */
+.trend-arrow-up {
+    color: #28a745;
+}
+
+.trend-arrow-down {
+    color: #dc3545;
+}
+
+.trend-arrow-neutral {
+    color: #6c757d;
+}
+
+/* Grafik stilleri */
+canvas {
+    max-height: 300px;
+}
+
+/* Tab içerik alanı */
+.tab-content {
+    padding: 15px;
+    background: white;
+    border: 1px solid #dee2e6;
+    border-top: none;
+    border-radius: 0 0 0.25rem 0.25rem;
+}
+
+/* Rapor tabları */
+.report-tab .nav-link.active {
+    font-weight: 500;
+}
+
+/* Rapor tabloları için ek stiller */
+.table-responsive {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.075);
+}
+
+/* Performans kartları */
+.performance-card {
+    transition: all 0.3s ease;
+    border: 1px solid #e9ecef;
+}
+
+.performance-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+/* Badge stilleri */
+.badge-pill {
+    border-radius: 10rem;
+}
+
+/* Chart container */
+.chart-container {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+/* Responsive iyileştirmeler */
+@media (max-width: 768px) {
+    .report-card {
+        margin-bottom: 1rem;
+    }
+    
+    .report-summary-icon {
+        font-size: 1.5rem;
+    }
+    
+    .table-responsive {
+        font-size: 0.875rem;
+    }
+}
+
+/* Animasyonlar */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.report-card {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Özel durum stilleri */
+.no-data-message {
+    text-align: center;
+    color: #6c757d;
+    padding: 2rem;
+    font-style: italic;
+}
+
+.loading-spinner {
+    text-align: center;
+    padding: 2rem;
+}

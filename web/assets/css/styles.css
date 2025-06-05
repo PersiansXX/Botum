@@ -1,0 +1,315 @@
+/* Genel stil ayarları */
+:root {
+    --primary: #3a6df0;
+    --primary-light: #6291fd;
+    --secondary: #4e4e4e;
+    --light-bg: #f9fafb;
+    --dark-bg: #1f2937;
+    --card-bg: #ffffff;
+    --success: #10b981;
+    --danger: #ef4444;
+    --warning: #f59e0b;
+    --info: #3b82f6;
+    --dark-text: #374151;
+    --light-text: #f3f4f6;
+    --border-color: #e5e7eb;
+    --transition-speed: 0.3s;
+}
+
+body {
+    background-color: var(--light-bg);
+    color: var(--dark-text);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all var(--transition-speed) ease;
+}
+
+/* Tipografi İyileştirmeleri */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: var(--dark-text);
+    margin-bottom: 1rem;
+}
+
+a {
+    color: var(--primary);
+    transition: color var(--transition-speed) ease;
+}
+
+a:hover {
+    color: var(--primary-light);
+    text-decoration: none;
+}
+
+/* Sidebar */
+.sidebar {
+    min-height: calc(100vh - 56px);
+    background-color: var(--dark-bg);
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    transition: all var(--transition-speed) ease;
+}
+
+.sidebar .nav-link {
+    color: var(--light-text);
+    border-left: 3px solid transparent;
+    padding: 0.75rem 1rem;
+    transition: all var(--transition-speed) ease;
+}
+
+.sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-left: 3px solid var(--primary);
+}
+
+.sidebar .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-left: 3px solid var(--primary);
+}
+
+.sidebar .nav-link i {
+    margin-right: 8px;
+    width: 20px;
+    text-align: center;
+}
+
+/* Kartlar */
+.card {
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    border: 1px solid var(--border-color);
+    background-color: var(--card-bg);
+    transition: all var(--transition-speed) ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card-header {
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    background-color: rgba(0, 0, 0, 0.02);
+    border-bottom: 1px solid var(--border-color);
+    padding: 1rem 1.25rem;
+    font-weight: 600;
+}
+
+/* Tablo düzenlemeleri */
+.table {
+    margin-bottom: 0;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(58, 109, 240, 0.05);
+}
+
+.table th {
+    border-top: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: var(--secondary);
+}
+
+.table td, .table th {
+    padding: 0.85rem;
+    vertical-align: middle;
+    border-color: var(--border-color);
+}
+
+/* Butonlar */
+.btn {
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.25rem;
+    font-weight: 500;
+    transition: all var(--transition-speed) ease;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-light);
+    border-color: var(--primary-light);
+}
+
+.btn-success {
+    background-color: var(--success);
+    border-color: var(--success);
+}
+
+.btn-danger {
+    background-color: var(--danger);
+    border-color: var(--danger);
+}
+
+/* Grafik konteyner */
+.chart-container {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-color: var(--card-bg);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* İndikatör renkleri */
+.bg-rsi-overbought {
+    background-color: var(--danger) !important;
+}
+
+.bg-rsi-oversold {
+    background-color: var(--success) !important;
+}
+
+.bg-rsi-neutral {
+    background-color: var(--info) !important;
+}
+
+/* Badge stilleri */
+.badge {
+    font-weight: 500;
+    padding: 0.35em 0.65em;
+    border-radius: 0.25rem;
+}
+
+/* Log konteyner */
+.log-container {
+    font-family: 'Consolas', 'Courier New', monospace;
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+    padding: 15px;
+    border-radius: 0.5rem;
+    height: 300px;
+    overflow-y: auto;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.log-container .error {
+    color: var(--danger);
+}
+
+.log-container .success {
+    color: var(--success);
+}
+
+.log-container .warning {
+    color: var(--warning);
+}
+
+.log-container .info {
+    color: var(--info);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition: background var(--transition-speed) ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/* Coin kartları için özel stil */
+.coin-card {
+    transition: all var(--transition-speed) ease;
+    cursor: pointer;
+}
+
+.coin-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Dashboard statistic cards */
+.stats-card {
+    border-radius: 0.75rem;
+    overflow: hidden;
+    padding: 1.5rem;
+    transition: all var(--transition-speed) ease;
+}
+
+.stats-card .icon {
+    font-size: 2rem;
+    opacity: 0.8;
+}
+
+.stats-card .number {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.stats-card .label {
+    font-size: 0.95rem;
+    opacity: 0.8;
+}
+
+/* Form elementleri */
+.form-control {
+    border-radius: 0.5rem;
+    border: 1px solid var(--border-color);
+    padding: 0.5rem 0.75rem;
+    transition: all var(--transition-speed) ease;
+}
+
+.form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.2rem rgba(58, 109, 240, 0.25);
+}
+
+/* Navbar güncellemeleri */
+.navbar {
+    background-color: var(--card-bg);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Responsive ayarlamalar */
+@media (max-width: 768px) {
+    .sidebar {
+        min-height: auto;
+    }
+}
+
+/* Koyu tema desteği (opsiyonel) */
+body.dark-mode {
+    background-color: #121212;
+    color: var(--light-text);
+}
+
+body.dark-mode .card,
+body.dark-mode .navbar {
+    background-color: #1e1e1e;
+    border-color: #333;
+}
+
+body.dark-mode .card-header {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: #333;
+}
+
+body.dark-mode .table td,
+body.dark-mode .table th {
+    border-color: #333;
+}
+
+body.dark-mode .form-control {
+    background-color: #2d2d2d;
+    border-color: #333;
+    color: var(--light-text);
+}

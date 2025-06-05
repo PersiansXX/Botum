@@ -1,0 +1,395 @@
+/* Bot Status Sayfası Özel Stilleri */
+
+:root {
+    --primary: #4e73df;
+    --primary-light: #6f8df7;
+    --secondary: #5a5c69;
+    --success: #1cc88a;
+    --danger: #e74a3b;
+    --warning: #f6c23e;
+    --info: #36b9cc;
+    --light: #f8f9fc;
+    --dark: #5a5c69;
+    --dark-bg: #23283e;
+    --card-bg: #ffffff;
+    --border-color: #e3e6f0;
+    --light-text: #f8f9fd;
+    --transition-speed: 0.3s;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fc;
+}
+
+/* Bot Status Card */
+.status-card {
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+
+.status-card:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transform: translateY(-3px);
+}
+
+.status-card .card-header {
+    background: linear-gradient(135deg, var(--primary), var(--primary-light));
+    color: white;
+    padding: 1.25rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status-card .card-header h5 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.status-card .card-header i {
+    margin-right: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Status Icon */
+.status-icon {
+    font-size: 60px;
+    margin-bottom: 1rem;
+    animation: pulsate 2s infinite alternate;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+@keyframes pulsate {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: scale(1.05);
+        opacity: 0.8;
+    }
+}
+
+/* Bot Controls */
+.bot-controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 1.5rem;
+}
+
+.bot-controls .btn {
+    min-width: 150px;
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bot-controls .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.bot-controls .btn i {
+    margin-right: 0.5rem;
+}
+
+/* Stats Styling */
+.bot-stats {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    gap: 10px;
+}
+
+.stat-item {
+    flex: 1 1 150px;
+    padding: 1.25rem 1rem;
+    border-radius: 0.75rem;
+    background: #ffffff;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+}
+
+.stat-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.stat-item .label {
+    font-size: 0.85rem;
+    color: var(--secondary);
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.stat-item .value {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--dark);
+}
+
+.stat-item i {
+    margin-right: 0.35rem;
+    opacity: 0.7;
+}
+
+.stat-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(to bottom, var(--primary), var(--primary-light));
+    opacity: 0.7;
+}
+
+/* Logs Styling */
+.log-container {
+    height: 300px;
+    overflow-y: auto;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+}
+
+.log-container.dark {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+.log-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.log-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.log-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.log-line {
+    margin-bottom: 4px;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.log-line:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.error {
+    color: #ff7675;
+    border-left: 3px solid #ff7675;
+    padding-left: 8px;
+}
+
+.warning {
+    color: #fdcb6e;
+    border-left: 3px solid #fdcb6e;
+    padding-left: 8px;
+}
+
+.info {
+    color: #74b9ff;
+    border-left: 3px solid #74b9ff;
+    padding-left: 8px;
+}
+
+/* Refresh Button */
+.refresh-btn {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 50px;
+    color: white;
+    font-size: 0.85rem;
+    transition: all 0.3s ease;
+}
+
+.refresh-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+}
+
+.refresh-btn i {
+    margin-right: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.refresh-btn:hover i {
+    transform: rotate(180deg);
+}
+
+/* Tech Info Tables */
+.tech-info-table {
+    font-size: 0.9rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.tech-info-table th,
+.tech-info-table td {
+    padding: 0.75rem 1rem;
+    border-top: 1px solid var(--border-color);
+    vertical-align: middle;
+}
+
+.tech-info-table th {
+    background-color: rgba(0, 0, 0, 0.02);
+    font-weight: 500;
+    color: var(--secondary);
+}
+
+/* Status cards */
+.service-status-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.service-status-card {
+    flex: 1 1 calc(50% - 15px);
+    background: white;
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.service-status-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-status-card h6 {
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Custom Modal */
+.modal-content {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.modal-header {
+    background: linear-gradient(135deg, var(--primary), var(--primary-light));
+    color: white;
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: 1px solid var(--border-color);
+    background: rgba(0, 0, 0, 0.01);
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+/* Auto-refresh indicator */
+.auto-refresh-indicator {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: white;
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 10;
+}
+
+.pulse {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--success);
+    position: relative;
+}
+
+.pulse::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--success);
+    border-radius: 50%;
+    transform: scale(1);
+    animation: pulse-animation 2s infinite;
+    opacity: 0.5;
+}
+
+@keyframes pulse-animation {
+    0% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+    50% {
+        transform: scale(2.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+/* Flash update animation */
+.flash-update {
+    animation: flash 0.5s ease-in-out;
+}
+
+@keyframes flash {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+/* Progress bar animations */
+.progress-bar-striped {
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-size: 1rem 1rem;
+}
+
+.progress-bar-animated {
+    animation: progress-bar-stripes 1s linear infinite;
+}
+
+@keyframes progress-bar-stripes {
+    0% { background-position: 1rem 0; }
+    100% { background-position: 0 0; }
+}

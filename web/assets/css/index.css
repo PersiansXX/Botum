@@ -1,0 +1,114 @@
+/* Index/Dashboard Ana Sayfası Özel Stilleri */
+
+/* Bakiye güncelleme animasyonu */
+.balance-updated {
+    animation: balanceUpdate 1s ease;
+}
+
+@keyframes balanceUpdate {
+    0% { color: inherit; }
+    25% { color: #28a745; }
+    100% { color: inherit; }
+}
+
+/* Dashboard kartları için ek stiller */
+.border-left-primary {
+    border-left: 0.25rem solid #4e73df !important;
+}
+
+.border-left-success {
+    border-left: 0.25rem solid #1cc88a !important;
+}
+
+.border-left-danger {
+    border-left: 0.25rem solid #e74a3b !important;
+}
+
+.border-left-info {
+    border-left: 0.25rem solid #36b9cc !important;
+}
+
+/* Kart hover efektleri */
+.card.shadow:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+    transition: all 0.3s ease;
+}
+
+/* Log container stilleri */
+.log-container {
+    background-color: #f8f9fc;
+    border: 1px solid #e3e6f0;
+    border-radius: 0.35rem;
+    padding: 0.75rem;
+}
+
+/* Toggle switch iyileştirmeleri */
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #1cc88a;
+    background-color: #1cc88a;
+}
+
+/* Strateji listesi stilleri */
+.strategy-item {
+    padding: 0.75rem;
+    border-bottom: 1px solid #e3e6f0;
+    transition: background-color 0.2s ease;
+}
+
+.strategy-item:hover {
+    background-color: #f8f9fc;
+}
+
+.strategy-item:last-child {
+    border-bottom: none;
+}
+
+/* Responsive iyileştirmeler */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 0.75rem;
+    }
+    
+    .text-xs {
+        font-size: 0.7rem;
+    }
+    
+    .h5 {
+        font-size: 1rem;
+    }
+}
+
+/* Grafik container */
+#profitChart {
+    max-height: 300px;
+}
+
+/* Son işlemler tablosu */
+.table-sm td,
+.table-sm th {
+    padding: 0.3rem;
+    font-size: 0.875rem;
+}
+
+/* Badge stilleri */
+.badge-success {
+    color: #fff;
+    background-color: #1cc88a;
+}
+
+.badge-danger {
+    color: #fff;
+    background-color: #e74a3b;
+}
+
+.badge-secondary {
+    color: #fff;
+    background-color: #858796;
+}
+
+/* Spinner stilleri */
+.spinner-border-sm {
+    width: 1rem;
+    height: 1rem;
+}

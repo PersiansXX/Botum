@@ -1,0 +1,289 @@
+/* Ayarlar sayfası için özel stiller */
+.settings-wrapper {
+    padding: 0.5rem;
+}
+
+.settings-card {
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    margin-bottom: 2rem;
+    overflow: hidden;
+    border: none;
+}
+
+.settings-header {
+    background: linear-gradient(135deg, var(--primary), var(--primary-light));
+    color: white;
+    padding: 1.25rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings-header h5 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.settings-header i {
+    margin-right: 0.75rem;
+    font-size: 1.1rem;
+}
+
+.nav-tabs {
+    background-color: #f9fafb;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 0 1rem;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: var(--secondary);
+    font-weight: 500;
+    padding: 1rem 1.25rem;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.nav-tabs .nav-link:hover {
+    color: var(--primary);
+    border-bottom-color: rgba(58, 109, 240, 0.3);
+    background-color: transparent;
+}
+
+.nav-tabs .nav-link.active {
+    color: var(--primary);
+    background-color: transparent;
+    border-bottom-color: var(--primary);
+    font-weight: 600;
+}
+
+.nav-tabs .nav-link i {
+    margin-right: 0.5rem;
+}
+
+.tab-content {
+    padding: 1.5rem;
+}
+
+.settings-panel {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+}
+
+.settings-panel:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transform: translateY(-2px);
+}
+
+.settings-panel h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--dark-text);
+    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+}
+
+.settings-panel h5 i {
+    margin-right: 0.75rem;
+    color: var(--primary);
+}
+
+.settings-footer {
+    background-color: #f9fafb;
+    border-top: 1px solid #e5e7eb;
+    padding: 1.25rem;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    z-index: 1000;
+    margin-top: 20px;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+    width: 100%;
+    display: block;
+}
+
+/* Form kontrolleri için stiller */
+.settings-form label {
+    font-weight: 500;
+    color: var(--secondary);
+}
+
+.settings-form .form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.2rem rgba(58, 109, 240, 0.25);
+}
+
+.settings-form .custom-switch .custom-control-label::before {
+    border-radius: 1rem;
+    height: 1.25rem;
+    width: 2.25rem;
+}
+
+.settings-form .custom-switch .custom-control-label::after {
+    height: calc(1.25rem - 4px);
+    width: calc(1.25rem - 4px);
+}
+
+.settings-form .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+/* İndikatör ve strateji kartları için stiller */
+.feature-card {
+    border-radius: 0.5rem;
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+
+.feature-card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.feature-card-header {
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 0.85rem 1.25rem;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feature-card-header h5 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.feature-card-header h5 i {
+    margin-right: 0.75rem;
+    color: var(--primary);
+    font-size: 1.1rem;
+}
+
+.feature-card-body {
+    padding: 1.25rem;
+}
+
+.feature-card.enabled {
+    border-left: 3px solid var(--primary);
+}
+
+.feature-card.disabled {
+    opacity: 0.75;
+}
+
+/* Açıklayıcı metin ve ipuçları için stiller */
+.feature-description {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    margin-top: 0.5rem;
+}
+
+.tooltip-icon {
+    color: var(--secondary);
+    margin-left: 0.5rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+/* Form alanları gruplandırma stili */
+.form-group-container {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.form-group-title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: var(--secondary);
+    display: flex;
+    align-items: center;
+}
+
+.form-group-title i {
+    margin-right: 0.5rem;
+    color: var(--primary);
+}
+
+.card-header.bg-primary {
+    background: linear-gradient(135deg, var(--primary), var(--primary-light)) !important;
+}
+
+.alert-success {
+    border-left: 4px solid #10b981;
+}
+
+.alert-danger {
+    border-left: 4px solid #ef4444;
+}
+
+/* Save buton stili */
+.btn-save {
+    background: linear-gradient(135deg, var(--primary), var(--primary-light));
+    color: white !important;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem 2.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(58, 109, 240, 0.3);
+    font-size: 1.1rem;
+}
+
+.btn-save:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(58, 109, 240, 0.4);
+    color: white;
+}
+
+.btn-save i {
+    margin-right: 0.5rem;
+}
+
+/* Bilgi kutuları */
+.info-box {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    display: flex;
+    align-items: flex-start;
+    transition: all 0.3s ease;
+}
+
+.info-box i {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.info-box.info {
+    background-color: rgba(59, 130, 246, 0.1);
+    border-left: 4px solid var(--info);
+}
+
+.info-box.warning {
+    background-color: rgba(245, 158, 11, 0.1);
+    border-left: 4px solid var(--warning);
+}
+
+.info-box.tip {
+    background-color: rgba(16, 185, 129, 0.1);
+    border-left: 4px solid var(--success);
+}
